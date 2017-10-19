@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>WebRTC App</title>
+</head>
+
+<body>
+  <div>
+    <input id="user-id" placeholder="userId" />
+    <button id="login-button">login</button>
+    <input id="partner-id" placeholder="partnerId" />
+    <button id="call-button">call</button>
+  </div>
+
+  <video id="user-video" autoplay playsinline muted></video>
+  <video id="partner-video" autoplay playsinline></video>
+
+  <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.14/peer.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
