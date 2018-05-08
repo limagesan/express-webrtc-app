@@ -14,7 +14,7 @@ function login(event) {
 
   // シグナリングサーバとPeer(WebSocket)接続
   peer = new Peer(userId, {
-    host: "sheltered-everglades-10121.herokuapp.com",
+    host: "YOUR_DOMAIN",
     port: 443,
     path: "/peerjs",
     secure: true
